@@ -6,9 +6,9 @@ import {HashRouter } from "react-router-dom";
 function App() {
    return (
       <div>
-         <BrowserRouter basename="/Portfolio">
+         <HashRouter basename="/Portfolio">
             <BaseLayout />
-         </BrowserRouter>
+         </HashRouter>
       </div>
    );
 }
